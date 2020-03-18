@@ -10,6 +10,6 @@ class Remover
     public static List<int> RemoveSmallest(List<int> numbers)
     {
          numbers.Remove(numbers.DefaultIfEmpty().Min());
-         return numbers
+        return numbers;
     }
 }
