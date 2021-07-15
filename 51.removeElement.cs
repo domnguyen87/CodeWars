@@ -19,6 +19,7 @@ public class Solution {
             if(nums[j] == val)
             {
                 j++;
+                
             }
             else{
                 nums[i] = nums[j];
